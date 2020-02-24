@@ -1,0 +1,48 @@
+{
+  "id": "b7d5554f-53ff-47be-b7d5-3fa699ddbb88",
+  "version": "2.0",
+  "name": "FeedbackBotUnitTest",
+  "url": "http://www.matpan.com",
+  "tests": [{
+    "id": "aa6a85e9-7f3a-4bc7-a0a4-c181fc03e9da",
+    "name": "FeedbackBotUnitTest",
+    "commands": [{
+      "id": "75dc2d6a-39d5-436a-8ac7-1b1bafaeef95",
+      "comment": "",
+      "command": "open",
+      "target": "/UBPlatform/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5d675d72-d9f0-40a4-8c17-f99f764b9d88",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1280x698",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "54a568a5-7d35-4be7-99d2-7b4ec022f929",
+      "comment": "",
+      "command": "click",
+      "target": "id=collect-chat-launcher-button",
+      "targets": [
+        ["id=collect-chat-launcher-button", "id"],
+        ["css=#collect-chat-launcher-button", "css:finder"],
+        ["xpath=//div[@id='collect-chat-launcher-button']", "xpath:attributes"],
+        ["xpath=//div[@id='collect-chat-launcher']/div", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "af830146-e7c7-4c86-a5ad-e34baea4e57c",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["aa6a85e9-7f3a-4bc7-a0a4-c181fc03e9da"]
+  }],
+  "urls": ["http://www.matpan.com/"],
+  "plugins": []
+}

@@ -1,0 +1,126 @@
+{
+  "id": "c55bd4ea-2b54-4bbb-87db-20d220cb9bcc",
+  "version": "2.0",
+  "name": "change-page",
+  "url": "http://www.matpan.com/UBPlatform/",
+  "tests": [{
+    "id": "5beb2b01-2781-4b4c-b484-e2b550dc3659",
+    "name": "change-page",
+    "commands": [{
+      "id": "ef67dbd5-89d1-4474-81a3-e251e0689ece",
+      "comment": "",
+      "command": "open",
+      "target": "/UBPlatform/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a735bb81-3c39-4c15-9ecc-fc6204c7d984",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1514x974",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "625a3a53-6e8b-446f-9180-5bfac934017a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-primary:nth-child(3)",
+      "targets": [
+        ["css=.btn-primary:nth-child(3)", "css:finder"],
+        ["xpath=(//button[@type='button'])[6]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div[3]/button[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Next Page')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8c39e733-b5a4-4e84-af38-6da2a690ee17",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-primary:nth-child(3)",
+      "targets": [
+        ["css=.btn-primary:nth-child(3)", "css:finder"],
+        ["xpath=(//button[@type='button'])[6]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div[3]/button[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Next Page')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2ab9e38e-d63d-4751-8fad-3ee44b544b84",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-primary:nth-child(3)",
+      "targets": [
+        ["css=.btn-primary:nth-child(3)", "css:finder"],
+        ["xpath=(//button[@type='button'])[6]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div[3]/button[2]", "xpath:idRelative"],
+        ["xpath=//div[3]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Next Page')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cca5ef06-3868-436a-88ee-7789cbac4870",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-primary:nth-child(1)",
+      "targets": [
+        ["css=.btn-primary:nth-child(1)", "css:finder"],
+        ["xpath=(//button[@type='button'])[5]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Previous Page')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8a1ed3f2-7bd0-4208-8287-65e8b4c5b468",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.btn-primary:nth-child(1)",
+      "targets": [
+        ["css=.btn-primary:nth-child(1)", "css:finder"],
+        ["xpath=(//button[@type='button'])[5]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Previous Page')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "00db0d3b-13c7-43e7-affd-c94d5d24f1bf",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.btn-primary:nth-child(1)",
+      "targets": [
+        ["css=.btn-primary:nth-child(1)", "css:finder"],
+        ["xpath=(//button[@type='button'])[5]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Previous Page')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "74722bd3-eca7-4c1c-b87f-56848ed06e59",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-primary:nth-child(1)",
+      "targets": [
+        ["css=.btn-primary:nth-child(1)", "css:finder"],
+        ["xpath=(//button[@type='button'])[5]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Previous Page')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "5d080115-c386-4711-b5de-6fc1e35df17c",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["5beb2b01-2781-4b4c-b484-e2b550dc3659"]
+  }],
+  "urls": ["http://www.matpan.com/", "http://www.matpan.com/UBPlatform/"],
+  "plugins": []
+}

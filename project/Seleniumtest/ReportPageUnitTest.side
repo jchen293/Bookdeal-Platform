@@ -1,0 +1,166 @@
+{
+  "id": "e860214b-d67e-48b8-ac1c-c2830546ee63",
+  "version": "2.0",
+  "name": "ReportPageUnitTest",
+  "url": "http://www.matpan.com",
+  "tests": [{
+    "id": "b952297c-d180-4d8d-8cd1-97de456e766f",
+    "name": "test",
+    "commands": [{
+      "id": "c86e6727-89b6-4d0c-984d-ee384233cb99",
+      "comment": "",
+      "command": "open",
+      "target": "/UBPlatform/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2443da1b-e5ae-4fa1-898d-c6dc84da78b9",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1280x698",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2434be6f-dba3-45c6-b874-4be97d850f2a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Report",
+      "targets": [
+        ["linkText=Report", "linkText"],
+        ["css=.nav-link:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Report')]", "xpath:link"],
+        ["xpath=//div[@id='basic-navbar-nav']/div/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#reportPage')]", "xpath:href"],
+        ["xpath=//a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'Report')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fe08f6e6-c911-4eba-89b6-bcead8f2c1a0",
+      "comment": "",
+      "command": "click",
+      "target": "name=sellerName",
+      "targets": [
+        ["name=sellerName", "name"],
+        ["css=label:nth-child(1) > input", "css:finder"],
+        ["xpath=//input[@name='sellerName']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/form/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1f7d99dc-9d15-4c39-be61-7935ba46c448",
+      "comment": "",
+      "command": "type",
+      "target": "name=sellerName",
+      "targets": [
+        ["name=sellerName", "name"],
+        ["css=label:nth-child(1) > input", "css:finder"],
+        ["xpath=//input[@name='sellerName']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/form/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "kelvin"
+    }, {
+      "id": "1ce330c6-fd1b-42de-a53b-8ebdb5bb2251",
+      "comment": "",
+      "command": "click",
+      "target": "name=sellerEmail",
+      "targets": [
+        ["name=sellerEmail", "name"],
+        ["css=label:nth-child(3) > input", "css:finder"],
+        ["xpath=//input[@name='sellerEmail']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/form/label[2]/input", "xpath:idRelative"],
+        ["xpath=//label[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "24055a61-911b-4d02-b390-1aa8fd682c5b",
+      "comment": "",
+      "command": "type",
+      "target": "name=sellerEmail",
+      "targets": [
+        ["name=sellerEmail", "name"],
+        ["css=label:nth-child(3) > input", "css:finder"],
+        ["xpath=//input[@name='sellerEmail']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/form/label[2]/input", "xpath:idRelative"],
+        ["xpath=//label[2]/input", "xpath:position"]
+      ],
+      "value": "kwong27@buffalo.edu"
+    }, {
+      "id": "2ca3096f-5cb7-4ade-9793-92674242a260",
+      "comment": "",
+      "command": "click",
+      "target": "name=bookName",
+      "targets": [
+        ["name=bookName", "name"],
+        ["css=label:nth-child(5) > input", "css:finder"],
+        ["xpath=//input[@name='bookName']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/form/label[3]/input", "xpath:idRelative"],
+        ["xpath=//label[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "35543683-7f5e-4d77-82c9-3f2528178484",
+      "comment": "",
+      "command": "type",
+      "target": "name=bookName",
+      "targets": [
+        ["name=bookName", "name"],
+        ["css=label:nth-child(5) > input", "css:finder"],
+        ["xpath=//input[@name='bookName']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/form/label[3]/input", "xpath:idRelative"],
+        ["xpath=//label[3]/input", "xpath:position"]
+      ],
+      "value": "sex addition"
+    }, {
+      "id": "efff6637-e762-497f-8d3c-1a9e7933a116",
+      "comment": "",
+      "command": "click",
+      "target": "name=comment",
+      "targets": [
+        ["name=comment", "name"],
+        ["css=textarea", "css:finder"],
+        ["xpath=//textarea[@name='comment']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/form/label[4]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f95ad7e5-7647-4010-b25f-be156ebbeb41",
+      "comment": "",
+      "command": "type",
+      "target": "name=comment",
+      "targets": [
+        ["name=comment", "name"],
+        ["css=textarea", "css:finder"],
+        ["xpath=//textarea[@name='comment']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/form/label[4]/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "This book is illegal"
+    }, {
+      "id": "aba56603-f0d9-4f38-b85b-7e7863bfa081",
+      "comment": "",
+      "command": "click",
+      "target": "css=input:nth-child(9)",
+      "targets": [
+        ["css=input:nth-child(9)", "css:finder"],
+        ["xpath=//input[@value='Submit']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/form/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "4f05291f-9cfe-48a0-8663-7474662ef487",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["b952297c-d180-4d8d-8cd1-97de456e766f"]
+  }],
+  "urls": ["http://www.matpan.com/"],
+  "plugins": []
+}

@@ -1,0 +1,64 @@
+{
+  "id": "06329cba-b0dc-4035-a275-d52ec45d2841",
+  "version": "2.0",
+  "name": "kelvin",
+  "url": "http://www.matpan.com",
+  "tests": [{
+    "id": "f8797a64-2143-405c-9e8c-10ee974f00eb",
+    "name": "kelvin",
+    "commands": [{
+      "id": "a952bc2d-3e18-460d-a100-5b71e1b0cbe8",
+      "comment": "",
+      "command": "open",
+      "target": "/UBPlatform/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ac9d6cb8-6f55-4c5c-9a21-0cd92bb49343",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1514x974",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8c2dd51b-5082-469e-83b5-f600918f790d",
+      "comment": "",
+      "command": "pause",
+      "target": "1000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "58770e94-ac97-4c6a-b4a1-7249d2e9d800",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Policy",
+      "targets": [
+        ["linkText=Policy", "linkText"],
+        ["css=.nav > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Policy')]", "xpath:link"],
+        ["xpath=//div[@id='root']/div/div[2]/footer/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#policyPage')]", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Policy')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "912edf22-da77-4930-8d93-0e9a41446e26",
+      "comment": "",
+      "command": "pause",
+      "target": "2000",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "f22fb614-9c92-4923-9d5b-ada0cdd65aa0",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["f8797a64-2143-405c-9e8c-10ee974f00eb"]
+  }],
+  "urls": ["http://www.matpan.com/"],
+  "plugins": []
+}

@@ -1,0 +1,638 @@
+{
+  "id": "2d11ce6a-5b79-47a9-94e6-794b453af331",
+  "version": "2.0",
+  "name": "test-randombook",
+  "url": "http://www.matpan.com/UBPlatform/",
+  "tests": [{
+    "id": "55cc7c5a-aac9-4581-ad9e-2931e102a8cc",
+    "name": "test-randombook",
+    "commands": [{
+      "id": "addb8450-f3db-4334-b77e-06091622c7f7",
+      "comment": "",
+      "command": "open",
+      "target": "http://www.matpan.com/UBPlatform/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cfeb23e3-98d7-44d9-8abe-cb1475eb9be1",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1514x974",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "53d0bfb2-9500-4f58-89c4-bc74a685c253",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-outline-primary:nth-child(1)",
+      "targets": [
+        ["css=.btn-outline-primary:nth-child(1)", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='basic-navbar-nav']/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "01def2c8-5f6f-4b00-b111-ad4756ee3de9",
+      "comment": "",
+      "command": "click",
+      "target": "css=label:nth-child(2) > .sc-htpNat",
+      "targets": [
+        ["css=label:nth-child(2) > .sc-htpNat", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8cbc7e25-aaf3-4471-8789-0cb812218e95",
+      "comment": "",
+      "command": "type",
+      "target": "css=label:nth-child(2) > .sc-htpNat",
+      "targets": [
+        ["css=label:nth-child(2) > .sc-htpNat", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "user4"
+    }, {
+      "id": "7ef3149b-4ea8-40ba-8d57-90bd5f26f8a1",
+      "comment": "",
+      "command": "click",
+      "target": "css=label:nth-child(3) > .sc-htpNat",
+      "targets": [
+        ["css=label:nth-child(3) > .sc-htpNat", "css:finder"],
+        ["xpath=//input[@type='password']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/label[2]/input", "xpath:idRelative"],
+        ["xpath=//label[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cfb26165-0d63-4da6-b748-7f0aab635774",
+      "comment": "",
+      "command": "type",
+      "target": "css=label:nth-child(3) > .sc-htpNat",
+      "targets": [
+        ["css=label:nth-child(3) > .sc-htpNat", "css:finder"],
+        ["xpath=//input[@type='password']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/label[2]/input", "xpath:idRelative"],
+        ["xpath=//label[2]/input", "xpath:position"]
+      ],
+      "value": "123"
+    }, {
+      "id": "f5defc01-bd0a-4cff-be44-37cd4ea9c3f2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-bxivhb",
+      "targets": [
+        ["css=.sc-bxivhb", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Login to System')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d4b73e0a-26cf-43f9-90ff-b60c04f1cc3e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-secondary:nth-child(1)",
+      "targets": [
+        ["css=.btn-secondary:nth-child(1)", "css:finder"],
+        ["xpath=(//button[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/button", "xpath:idRelative"],
+        ["xpath=//div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'English')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e4f357fd-07a7-401c-9b91-f06176c00be5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=InterestsPage",
+      "targets": [
+        ["linkText=InterestsPage", "linkText"],
+        ["css=.nav-link:nth-child(4)", "css:finder"],
+        ["xpath=//a[contains(text(),'InterestsPage')]", "xpath:link"],
+        ["xpath=//div[@id='basic-navbar-nav']/div/a[4]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#InterestsPage')]", "xpath:href"],
+        ["xpath=//a[4]", "xpath:position"],
+        ["xpath=//a[contains(.,'InterestsPage')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "79914f31-0369-428c-be83-b237019c6db6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Account",
+      "targets": [
+        ["linkText=Account", "linkText"],
+        ["css=.nav-link:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Account')]", "xpath:link"],
+        ["xpath=//div[@id='basic-navbar-nav']/div/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#accountPage')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Account')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3a606ae2-3347-4c46-aac4-26a27ae5bbac",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Account",
+      "targets": [
+        ["linkText=Account", "linkText"],
+        ["css=.active", "css:finder"],
+        ["xpath=//a[contains(text(),'Account')]", "xpath:link"],
+        ["xpath=//div[@id='basic-navbar-nav']/div/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#accountPage')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Account')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b908fc35-96d3-4c89-8b15-dbee54fd3f36",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "linkText=Account",
+      "targets": [
+        ["linkText=Account", "linkText"],
+        ["css=.active", "css:finder"],
+        ["xpath=//a[contains(text(),'Account')]", "xpath:link"],
+        ["xpath=//div[@id='basic-navbar-nav']/div/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#accountPage')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Account')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cabc0ff6-b221-461f-9a76-5f77f5c1ce52",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=InterestsPage",
+      "targets": [
+        ["linkText=InterestsPage", "linkText"],
+        ["css=.nav-link:nth-child(4)", "css:finder"],
+        ["xpath=//a[contains(text(),'InterestsPage')]", "xpath:link"],
+        ["xpath=//div[@id='basic-navbar-nav']/div/a[4]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#InterestsPage')]", "xpath:href"],
+        ["xpath=//a[4]", "xpath:position"],
+        ["xpath=//a[contains(.,'InterestsPage')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a7aeaab6-2556-465c-bda8-7e1833bf2e26",
+      "comment": "",
+      "command": "pause",
+      "target": "1000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "84853abf-96cd-415d-8445-c2dcbe58b9dd",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Account",
+      "targets": [
+        ["linkText=Account", "linkText"],
+        ["css=.nav-link:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Account')]", "xpath:link"],
+        ["xpath=//div[@id='basic-navbar-nav']/div/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#accountPage')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Account')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0df1bacf-6faa-4218-870e-634e7cc1a15e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn:nth-child(2)",
+      "targets": [
+        ["css=.btn:nth-child(2)", "css:finder"],
+        ["xpath=(//button[@type='button'])[4]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'CSE')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e52120b0-93c5-4c5d-96ea-236f5f508882",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=InterestsPage",
+      "targets": [
+        ["linkText=InterestsPage", "linkText"],
+        ["css=.nav-link:nth-child(4)", "css:finder"],
+        ["xpath=//a[contains(text(),'InterestsPage')]", "xpath:link"],
+        ["xpath=//div[@id='basic-navbar-nav']/div/a[4]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#InterestsPage')]", "xpath:href"],
+        ["xpath=//a[4]", "xpath:position"],
+        ["xpath=//a[contains(.,'InterestsPage')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f3078e71-c6b9-443a-969b-df9895474b27",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Account",
+      "targets": [
+        ["linkText=Account", "linkText"],
+        ["css=.nav-link:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Account')]", "xpath:link"],
+        ["xpath=//div[@id='basic-navbar-nav']/div/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#accountPage')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Account')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3cf34c31-1000-48e6-9c7d-f09253a11843",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=InterestsPage",
+      "targets": [
+        ["linkText=InterestsPage", "linkText"],
+        ["css=.nav-link:nth-child(4)", "css:finder"],
+        ["xpath=//a[contains(text(),'InterestsPage')]", "xpath:link"],
+        ["xpath=//div[@id='basic-navbar-nav']/div/a[4]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#InterestsPage')]", "xpath:href"],
+        ["xpath=//a[4]", "xpath:position"],
+        ["xpath=//a[contains(.,'InterestsPage')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2c29bb4d-26ad-4f36-b4ca-80bda0020c65",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=InterestsPage",
+      "targets": [
+        ["linkText=InterestsPage", "linkText"],
+        ["css=.nav-link:nth-child(4)", "css:finder"],
+        ["xpath=//a[contains(text(),'InterestsPage')]", "xpath:link"],
+        ["xpath=//div[@id='basic-navbar-nav']/div/a[4]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#InterestsPage')]", "xpath:href"],
+        ["xpath=//a[4]", "xpath:position"],
+        ["xpath=//a[contains(.,'InterestsPage')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "34cf95ab-1470-4166-8194-0b6b6b9b2e1a",
+      "comment": "",
+      "command": "pause",
+      "target": "500",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "11b1d8e5-45e3-4924-8c63-5a8361c04866",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=InterestsPage",
+      "targets": [
+        ["linkText=InterestsPage", "linkText"],
+        ["css=.active", "css:finder"],
+        ["xpath=//a[contains(text(),'InterestsPage')]", "xpath:link"],
+        ["xpath=//div[@id='basic-navbar-nav']/div/a[4]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#InterestsPage')]", "xpath:href"],
+        ["xpath=//a[4]", "xpath:position"],
+        ["xpath=//a[contains(.,'InterestsPage')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8deb1b8b-7937-47a0-bba4-50116cac38d1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Account",
+      "targets": [
+        ["linkText=Account", "linkText"],
+        ["css=.nav-link:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Account')]", "xpath:link"],
+        ["xpath=//div[@id='basic-navbar-nav']/div/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#accountPage')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Account')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e8ddf448-8dea-4bb0-9420-df94629d99bc",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=InterestsPage",
+      "targets": [
+        ["linkText=InterestsPage", "linkText"],
+        ["css=.nav-link:nth-child(4)", "css:finder"],
+        ["xpath=//a[contains(text(),'InterestsPage')]", "xpath:link"],
+        ["xpath=//div[@id='basic-navbar-nav']/div/a[4]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#InterestsPage')]", "xpath:href"],
+        ["xpath=//a[4]", "xpath:position"],
+        ["xpath=//a[contains(.,'InterestsPage')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "23bee9f1-eb9f-4e6d-a5fa-7b032ada9952",
+      "comment": "",
+      "command": "pause",
+      "target": "500",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "327f55bf-4982-4188-b856-fa2ab6d627de",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Account",
+      "targets": [
+        ["linkText=Account", "linkText"],
+        ["css=.nav-link:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Account')]", "xpath:link"],
+        ["xpath=//div[@id='basic-navbar-nav']/div/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#accountPage')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Account')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3127d401-a1fa-43c3-ba16-9e2da7818056",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn:nth-child(3)",
+      "targets": [
+        ["css=.btn:nth-child(3)", "css:finder"],
+        ["xpath=(//button[@type='button'])[5]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/button[3]", "xpath:idRelative"],
+        ["xpath=//button[3]", "xpath:position"],
+        ["xpath=//button[contains(.,'History')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "de930e69-8081-40d7-ae0e-ba79aee495e3",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=InterestsPage",
+      "targets": [
+        ["linkText=InterestsPage", "linkText"],
+        ["css=.nav-link:nth-child(4)", "css:finder"],
+        ["xpath=//a[contains(text(),'InterestsPage')]", "xpath:link"],
+        ["xpath=//div[@id='basic-navbar-nav']/div/a[4]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#InterestsPage')]", "xpath:href"],
+        ["xpath=//a[4]", "xpath:position"],
+        ["xpath=//a[contains(.,'InterestsPage')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "70fec42c-9980-467a-bab6-f5af42879bd6",
+      "comment": "",
+      "command": "pause",
+      "target": "500",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0c2d94da-85fd-4b41-8f31-7b09f013d3f1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Account",
+      "targets": [
+        ["linkText=Account", "linkText"],
+        ["css=.nav-link:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Account')]", "xpath:link"],
+        ["xpath=//div[@id='basic-navbar-nav']/div/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#accountPage')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Account')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "582ddc30-f7f3-4cb8-8c91-be8eec965576",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=InterestsPage",
+      "targets": [
+        ["linkText=InterestsPage", "linkText"],
+        ["css=.nav-link:nth-child(4)", "css:finder"],
+        ["xpath=//a[contains(text(),'InterestsPage')]", "xpath:link"],
+        ["xpath=//div[@id='basic-navbar-nav']/div/a[4]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#InterestsPage')]", "xpath:href"],
+        ["xpath=//a[4]", "xpath:position"],
+        ["xpath=//a[contains(.,'InterestsPage')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "812eaa3c-cf1a-4fd1-9583-5e786a091854",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=InterestsPage",
+      "targets": [
+        ["linkText=InterestsPage", "linkText"],
+        ["css=.nav-link:nth-child(4)", "css:finder"],
+        ["xpath=//a[contains(text(),'InterestsPage')]", "xpath:link"],
+        ["xpath=//div[@id='basic-navbar-nav']/div/a[4]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#InterestsPage')]", "xpath:href"],
+        ["xpath=//a[4]", "xpath:position"],
+        ["xpath=//a[contains(.,'InterestsPage')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a7c1a89b-a808-490f-91c8-4c787712d742",
+      "comment": "",
+      "command": "pause",
+      "target": "500",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6f3bf7f1-a52a-44c4-a886-bf032859e569",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=InterestsPage",
+      "targets": [
+        ["linkText=InterestsPage", "linkText"],
+        ["css=.active", "css:finder"],
+        ["xpath=//a[contains(text(),'InterestsPage')]", "xpath:link"],
+        ["xpath=//div[@id='basic-navbar-nav']/div/a[4]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#InterestsPage')]", "xpath:href"],
+        ["xpath=//a[4]", "xpath:position"],
+        ["xpath=//a[contains(.,'InterestsPage')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8600cffe-b8a0-4cb7-a8fd-127be206762a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Account",
+      "targets": [
+        ["linkText=Account", "linkText"],
+        ["css=.nav-link:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Account')]", "xpath:link"],
+        ["xpath=//div[@id='basic-navbar-nav']/div/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#accountPage')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Account')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fcd91d26-973b-4b86-9e7a-090f9979882c",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=InterestsPage",
+      "targets": [
+        ["linkText=InterestsPage", "linkText"],
+        ["css=.nav-link:nth-child(4)", "css:finder"],
+        ["xpath=//a[contains(text(),'InterestsPage')]", "xpath:link"],
+        ["xpath=//div[@id='basic-navbar-nav']/div/a[4]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#InterestsPage')]", "xpath:href"],
+        ["xpath=//a[4]", "xpath:position"],
+        ["xpath=//a[contains(.,'InterestsPage')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "22876959-3b98-4a8c-aa62-249872c8f0c5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=InterestsPage",
+      "targets": [
+        ["linkText=InterestsPage", "linkText"],
+        ["css=.nav-link:nth-child(4)", "css:finder"],
+        ["xpath=//a[contains(text(),'InterestsPage')]", "xpath:link"],
+        ["xpath=//div[@id='basic-navbar-nav']/div/a[4]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#InterestsPage')]", "xpath:href"],
+        ["xpath=//a[4]", "xpath:position"],
+        ["xpath=//a[contains(.,'InterestsPage')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "91d34d20-8eba-48b3-87e8-d06092cd11db",
+      "comment": "",
+      "command": "pause",
+      "target": "500",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e831561e-4ae8-4c35-82fe-f6ebd5a20408",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=InterestsPage",
+      "targets": [
+        ["linkText=InterestsPage", "linkText"],
+        ["css=.active", "css:finder"],
+        ["xpath=//a[contains(text(),'InterestsPage')]", "xpath:link"],
+        ["xpath=//div[@id='basic-navbar-nav']/div/a[4]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#InterestsPage')]", "xpath:href"],
+        ["xpath=//a[4]", "xpath:position"],
+        ["xpath=//a[contains(.,'InterestsPage')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2c284e5d-4c59-47b2-80db-271d3aa120e1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Account",
+      "targets": [
+        ["linkText=Account", "linkText"],
+        ["css=.nav-link:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Account')]", "xpath:link"],
+        ["xpath=//div[@id='basic-navbar-nav']/div/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#accountPage')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Account')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "420e1595-980d-44a8-b28d-815221f372af",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Account",
+      "targets": [
+        ["linkText=Account", "linkText"],
+        ["css=.nav-link:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Account')]", "xpath:link"],
+        ["xpath=//div[@id='basic-navbar-nav']/div/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#accountPage')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Account')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "93cd86b1-84be-4ca0-80e7-6b43464f498e",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Account",
+      "targets": [
+        ["linkText=Account", "linkText"],
+        ["css=.active", "css:finder"],
+        ["xpath=//a[contains(text(),'Account')]", "xpath:link"],
+        ["xpath=//div[@id='basic-navbar-nav']/div/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#accountPage')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Account')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cbc01c3a-427d-450f-b6a6-2727d73cd9ba",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=InterestsPage",
+      "targets": [
+        ["linkText=InterestsPage", "linkText"],
+        ["css=.nav-link:nth-child(4)", "css:finder"],
+        ["xpath=//a[contains(text(),'InterestsPage')]", "xpath:link"],
+        ["xpath=//div[@id='basic-navbar-nav']/div/a[4]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#InterestsPage')]", "xpath:href"],
+        ["xpath=//a[4]", "xpath:position"],
+        ["xpath=//a[contains(.,'InterestsPage')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b34e63aa-f966-43b4-90c3-92adbfeca04d",
+      "comment": "",
+      "command": "pause",
+      "target": "500",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "539b92cd-74fe-475f-ab0d-ca7371d13bd6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Account",
+      "targets": [
+        ["linkText=Account", "linkText"],
+        ["css=.nav-link:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Account')]", "xpath:link"],
+        ["xpath=//div[@id='basic-navbar-nav']/div/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#accountPage')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Account')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c1398d2a-ac79-4b9f-baeb-a20123e94838",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=InterestsPage",
+      "targets": [
+        ["linkText=InterestsPage", "linkText"],
+        ["css=.nav-link:nth-child(4)", "css:finder"],
+        ["xpath=//a[contains(text(),'InterestsPage')]", "xpath:link"],
+        ["xpath=//div[@id='basic-navbar-nav']/div/a[4]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#InterestsPage')]", "xpath:href"],
+        ["xpath=//a[4]", "xpath:position"],
+        ["xpath=//a[contains(.,'InterestsPage')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "48bd7bac-f4f4-46e9-9f8a-074eb9902f49",
+      "comment": "",
+      "command": "pause",
+      "target": "500",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "e57bb08a-55b3-4358-8e3b-ed57544daeb6",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["55cc7c5a-aac9-4581-ad9e-2931e102a8cc"]
+  }],
+  "urls": ["http://www.matpan.com/UBPlatform/"],
+  "plugins": []
+}
