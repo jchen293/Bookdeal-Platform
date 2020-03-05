@@ -41,7 +41,6 @@
     "eject": "react-scripts eject"
   },
   "proxy": "http://localhost:3001",
-  "homepage": "https://minxiangpan.github.io/UBPlatform",
   "eslintConfig": {
     "extends": "react-app"
   },
