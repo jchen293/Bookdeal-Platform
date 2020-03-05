@@ -15,7 +15,7 @@ import BookCardInfo from "./bookCardInfo";
 import InterestsPage from "./interestsPage";
 import { setTimeout } from "timers";
 import ReportPage from "./reportPage";
-import Cookies from 'universal-cookie';
+import Cookies from "universal-cookie";
 
 import Demo from "./demo";
 import logo1 from "./images/logo1.png";
@@ -57,7 +57,11 @@ class Header extends Component {
           variant="outline-primary"
           onClick={() =>
             this.props.setContent(
-              <Register login={this.login} api={this.props.api} setContent={this.props.setContent}/>
+              <Register
+                login={this.login}
+                api={this.props.api}
+                setContent={this.props.setContent}
+              />
             )
           }
         >
@@ -65,7 +69,7 @@ class Header extends Component {
         </Button>
       </React.Fragment>
     );
-    this.setState({user: cookies.get('users')});
+    this.setState({ user: cookies.get("users") });
   }
 
   setTopRight = content => {
@@ -88,7 +92,7 @@ class Header extends Component {
 
     this.setState({ user: users, currInterests: users.interestsList });
     this.randomBook();
-    cookies.set('users', users, {path : '/'});
+    cookies.set("users", users, { path: "/" });
     this.props.setContent(
       <AccountPage
         user={users}
@@ -113,7 +117,7 @@ class Header extends Component {
   signOut = () => {
     this.props.setContent(<Body api={this.props.api} />);
     this.setState({ user: null, currInterests: [], randomBook: [] });
-    cookies.remove('users');
+    cookies.remove("users");
     this.setTopRight(
       <React.Fragment>
         <Button
@@ -136,7 +140,11 @@ class Header extends Component {
           variant="outline-primary"
           onClick={() =>
             this.props.setContent(
-              <Register login={this.login} api={this.props.api} setContent={this.props.setContent}/>
+              <Register
+                login={this.login}
+                api={this.props.api}
+                setContent={this.props.setContent}
+              />
             )
           }
         >
@@ -195,8 +203,7 @@ class Header extends Component {
     if (!tempInter.includes(obj)) {
       tempInter.push(obj);
     }
-    for (let i = 0; i < tempInter.length; i++) {
-    }
+    for (let i = 0; i < tempInter.length; i++) {}
     this.setState({ currInterests: tempInter });
   };
 
@@ -214,7 +221,7 @@ class Header extends Component {
             style={{ width: 30 }}
           />
         </Navbar.Brand>
-e2
+
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
