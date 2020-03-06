@@ -10,6 +10,7 @@
     "gatsby": "^2.3.34",
     "gatsby-plugin-react-helmet": "^3.0.6",
     "graphql": "^14.2.1",
+    "http-proxy-middleware": "^1.0.1",
     "jquery": "^3.4.0",
     "kleur": "^3.0.2",
     "mongodb": "^3.1.13",
@@ -40,7 +41,6 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "proxy": "http://localhost:3001",
   "eslintConfig": {
     "extends": "react-app"
   },
