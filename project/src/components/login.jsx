@@ -13,7 +13,7 @@ class login extends Component {
 
   LogintoDB = json => {
     axios
-      .post(this.props.api + "/login", json)
+      .post("/api/login", json)
       .then(res => {
         if (!res.data.success && res.data.user == null) {
           alert("Username or Password is incorrect.");
@@ -27,7 +27,11 @@ class login extends Component {
   };
 
   responseGoogle = response => {
-    if(response != null && response.profileObj.name != null && response.El != null){
+    if (
+      response != null &&
+      response.profileObj.name != null &&
+      response.El != null
+    ) {
       this.LogintoDB({
         username: response.profileObj.name,
         password: response.El
@@ -36,7 +40,7 @@ class login extends Component {
   };
 
   responseFacebook = response => {
-    if(response != null && response.name != null && response.id != null){
+    if (response != null && response.name != null && response.id != null) {
       this.LogintoDB({
         username: response.name,
         password: response.id
@@ -45,7 +49,6 @@ class login extends Component {
   };
 
   render() {
-
     return (
       <React.Fragment>
         <LoginWrapper>

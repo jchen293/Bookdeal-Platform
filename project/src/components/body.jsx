@@ -68,7 +68,7 @@ class Body extends Component {
   // to remove existing database information
   // # idTodelete = _id from database
   deleteByIdFromDB = idTodelete => {
-    axios.delete(this.props.api + "/deleteByIdData", {
+    axios.delete("/api/deleteByIdData", {
       data: { id: idTodelete }
     });
   };
