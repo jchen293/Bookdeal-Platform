@@ -9,7 +9,7 @@ const { ObjectId } = require("mongodb");
 const mongodb = require("mongodb");
 const sha256 = require("js-sha256").sha256;
 const nodemailer = require("nodemailer");
-const API_PORT = 3001;
+const API_PORT = 5000;
 const app = express();
 
 var transporter = nodemailer.createTransport({
@@ -39,7 +39,7 @@ var transporter = nodemailer.createTransport({
 //   }
 // };
 // app.use(cors(corsOptions));
-app.use(cors());
+// app.use(cors());
 const router = express.Router();
 
 // this is our MongoDB database
