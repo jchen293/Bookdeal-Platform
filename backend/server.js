@@ -22,23 +22,23 @@ var transporter = nodemailer.createTransport({
 
 //setup whitelist for http request
 //When upoad to server, make sure this is live and prevent un indentify request
-const whitelist = [
-  "http://localhost:3000",
-  "http://localhost:3001",
-  "http://localhost:5000",
-  "http://www.matpan.com/UBPlatform",
-  "https://www.matpan.com/UBPlatform"
-];
-var corsOptions = {
-  origin: function(origin, callback) {
-    if (origin == undefined || whitelist.indexOf(origin) != -1) {
-      callback(null, true);
-    } else {
-      callback(new Error("Not allowed by CORS"));
-    }
-  }
-};
-app.use(cors(corsOptions));
+// const whitelist = [
+//   "http://localhost:3000",
+//   "http://localhost:3001",
+//   "http://localhost:5000",
+//   "http://www.matpan.com/UBPlatform",
+//   "https://www.matpan.com/UBPlatform"
+// ];
+// var corsOptions = {
+//   origin: function(origin, callback) {
+//     if (origin == undefined || whitelist.indexOf(origin) != -1) {
+//       callback(null, true);
+//     } else {
+//       callback(new Error("Not allowed by CORS"));
+//     }
+//   }
+// };
+// app.use(cors(corsOptions));
 
 const router = express.Router();
 
@@ -58,9 +58,9 @@ db.on("error", console.error.bind(console, "MongoDB connection error:"));
 
 // (optional) only made for logging and
 // bodyParser, parses the request body to be a readable json format
-app.use(bodyParser.urlencoded({ extended: false }));
+app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
-app.use(logger("dev"));
+// app.use(logger("dev"));
 
 // this method fetches all available data in our database
 router.get("/getData", (req, res) => {
