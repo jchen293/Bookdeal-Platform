@@ -60,7 +60,7 @@ class Body extends Component {
   // # see this.state.data
 
   getDataFromDb = () => {
-    fetch(this.props.api + "/getData")
+    fetch("api/getData")
       .then(data => data.json())
       .then(res => this.setState({ data: res.data }));
   };
