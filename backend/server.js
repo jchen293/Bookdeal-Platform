@@ -349,6 +349,12 @@ exports.passwordHashing = (password, salt) => {
 
 // append /api for our http requests
 app.use("/api", router);
+app.use(express.static("../project/build"));
+//serve that index.html file ('*' means anything aside from these api routes above)
+app.get("*", (req, res) => {
+  //load the index.html file
+  res.sendFile(path.resolve(__dirname, "../project", "build", "index.html"));
+});
 
 // launch our backend into a port
 app.listen(API_PORT, () => console.log(`LISTENING ON PORT ${API_PORT}`));
