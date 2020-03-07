@@ -39,7 +39,7 @@ var transporter = nodemailer.createTransport({
 //   }
 // };
 // app.use(cors(corsOptions));
-
+app.use(cors());
 const router = express.Router();
 
 // this is our MongoDB database
