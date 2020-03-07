@@ -23,7 +23,7 @@ class Register extends Component {
 
   putDataToUserDB = json => {
     axios
-      .post(this.props.api + "/putUser", json)
+      .post("/api/putUser", json)
       .then(res => {
         if (res.data.success) {
           alert("Register Successfully");

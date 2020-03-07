@@ -51,11 +51,21 @@ class BookCardInfo extends Component {
               More details
             </button>
             {console.log(this.props.username)}
-            {this.props.username ? <button className="btn btn-primary" onClick={()=>{
-              axios.delete(this.props.api + "/deleteByIdData", {
-                data: { owner: this.props.username, id: this.props.bookInfo._id }
-              });
-            }}>Delete</button> : null}
+            {this.props.username ? (
+              <button
+                className="btn btn-primary"
+                onClick={() => {
+                  axios.delete("/api/deleteByIdData", {
+                    data: {
+                      owner: this.props.username,
+                      id: this.props.bookInfo._id
+                    }
+                  });
+                }}
+              >
+                Delete
+              </button>
+            ) : null}
             <Modal
               isOpen={this.state.modalIsOpen}
               onAfterOpen={this.afterOpenModal}

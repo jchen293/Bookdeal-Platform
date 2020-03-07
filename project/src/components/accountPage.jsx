@@ -50,7 +50,7 @@ class AccountPage extends Component {
   //new function for getting current selling book
   getMyCurrentSellingBook = () => {
     axios
-      .post(this.props.api + "/search", {
+      .post("/api/search", {
         owner: this.props.user.username
       })
       .then(res => {
@@ -63,7 +63,7 @@ class AccountPage extends Component {
 
   addInter = obj => {
     axios
-      .post(this.props.api + "/putInterests", obj)
+      .post("/api/putInterests", obj)
       .then(res => {
         if (!res.data.success) {
           console.log(res.data.message);
@@ -77,7 +77,7 @@ class AccountPage extends Component {
   };
   updatePassword = (oldPass, newPass) => {
     axios
-      .post(this.props.api + "/changePassword", {
+      .post("/api/changePassword", {
         username: this.props.user.username,
         password: oldPass,
         newPassword: newPass
@@ -219,7 +219,12 @@ class AccountPage extends Component {
 
           <div>
             {this.state.currentSellingBook.map(book => (
-              <BookCardInfo key={book._id} bookInfo={book} api={this.props.api} username={this.props.user.username} />
+              <BookCardInfo
+                key={book._id}
+                bookInfo={book}
+                api={this.props.api}
+                username={this.props.user.username}
+              />
             ))}
           </div>
 
