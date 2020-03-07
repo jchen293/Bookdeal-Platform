@@ -215,7 +215,7 @@ class Header extends Component {
         style={{ marginBottom: 10 }}
       >
         <Navbar.Brand href="#home">
-          UB Platform
+          Book Deal
           <img
             src="https://img.icons8.com/doodle/48/000000/books.png"
             style={{ width: 30 }}

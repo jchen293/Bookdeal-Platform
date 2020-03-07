@@ -43,18 +43,16 @@ class TermsOfUse extends Component {
           <strong>Your account</strong>
           <br />
           <br />
-          You may need a UBPlatform Account in order to use some of our
-          Services. You may create your own UBPlatform Account, or your
-          UBPlatform Account may be assigned to you by an administrator, such as
-          your employer or educational institution. If you are using a
-          UBPlatform Account assigned to you by an administrator, different or
-          additional terms may apply and your administrator may be able to
-          access or disable your account. To protect your UBPlatform Account,
-          keep your password confidential. You are responsible for the activity
-          that happens on or through your UBPlatform Account. Try not to reuse
-          your UBPlatform Account password on third-party applications. If you
-          learn of any unauthorized use of your password or UBPlatform Account,
-          follow these instructions.
+          You may need an account in order to use some of our Services. You may
+          create your own account, or your account may be assigned to you by an
+          administrator, such as your employer or educational institution. If
+          you are using a account assigned to you by an administrator, different
+          or additional terms may apply and your administrator may be able to
+          access or disable your account. To protect your account, keep your
+          password confidential. You are responsible for the activity that
+          happens on or through your account. Try not to reuse your account
+          password on third-party applications. If you learn of any unauthorized
+          use of your password or account, follow these instructions.
           <br />
           <br />
           <hr />
@@ -64,7 +62,7 @@ class TermsOfUse extends Component {
           receive content. You retain ownership of any intellectual property
           rights that you hold in that content. In short, what belongs to you
           stays yours. When you upload, submit, store, send or receive content
-          to or through our Services, you give UBPlatform (and those we work
+          to or through our Services, you give our platform (and those we work
           with) a worldwide license to use, host, store, reproduce, modify,
           create derivative works (such as those resulting from translations,
           adaptations or other changes we make so that your content works better
@@ -82,37 +80,36 @@ class TermsOfUse extends Component {
           personally relevant product features, such as customized search
           results, tailored advertising, and spam and malware detection. This
           analysis occurs as the content is sent, received, and when it is
-          stored. If you have a UBPlatform Account, we may display your Profile
-          name, Profile photo, and actions you take on UBPlatform or on
-          third-party applications connected to your UBPlatform Account (such as
-          +1’s, reviews you write and comments you post) in our Services,
-          including displaying in ads and other commercial contexts. We will
-          respect the choices you make to limit sharing or visibility settings
-          in your UBPlatform Account. For example, you can choose your settings
-          so your name and photo do not appear in an ad. You can find more
-          information about how UBPlatform uses and stores content in the
-          privacy policy or additional terms for particular Services. If you
-          submit feedback or suggestions about our Services, we may use your
-          feedback or suggestions without obligation to you.
+          stored. If you have a account, we may display your Profile name,
+          Profile photo, and actions you take on our platform or on third-party
+          applications connected to your account (such as +1’s, reviews you
+          write and comments you post) in our Services, including displaying in
+          ads and other commercial contexts. We will respect the choices you
+          make to limit sharing or visibility settings in your account. For
+          example, you can choose your settings so your name and photo do not
+          appear in an ad. You can find more information about how our platform
+          uses and stores content in the privacy policy or additional terms for
+          particular Services. If you submit feedback or suggestions about our
+          Services, we may use your feedback or suggestions without obligation
+          to you.
         </p>
         <strong>About Software in our Services</strong>
         <br />
         When a Service requires or includes downloadable software, this software
         may update automatically on your device once a new version or feature is
         available. Some Services may let you adjust your automatic update
-        settings. UBPlatform gives you a personal, worldwide, royalty-free,
+        settings. Our platform gives you a personal, worldwide, royalty-free,
         non-assignable and non-exclusive license to use the software provided to
-        you by UBPlatform as part of the Services. This license is for the sole
-        purpose of enabling you to use and enjoy the benefit of the Services as
-        provided by UBPlatform, in the manner permitted by these terms. You may
-        not copy, modify, distribute, sell, or lease any part of our Services or
-        included software, nor may you reverse engineer or attempt to extract
-        the source code of that software, unless laws prohibit those
-        restrictions or you have our written permission. Open source software is
-        important to us. Some software used in our Services may be offered under
-        an open source license that we will make available to you. There may be
-        provisions in the open source license that expressly override some of
-        these terms.
+        you by as part of the Services. This license is for the sole purpose of
+        enabling you to use and enjoy the benefit of the Services as provided by
+        our platform, in the manner permitted by these terms. You may not copy,
+        modify, distribute, sell, or lease any part of our Services or included
+        software, nor may you reverse engineer or attempt to extract the source
+        code of that software, unless laws prohibit those restrictions or you
+        have our written permission. Open source software is important to us.
+        Some software used in our Services may be offered under an open source
+        license that we will make available to you. There may be provisions in
+        the open source license that expressly override some of these terms.
       </div>
     );
   }

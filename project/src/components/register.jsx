@@ -224,7 +224,7 @@ class Register extends Component {
             <div>
               <span>
                 <hr />
-                By signing up, you agree to our UBPlatform’s
+                By signing up, you agree to our platform’s &nbsp;
               </span>
               <a
                 href="#policyPage"

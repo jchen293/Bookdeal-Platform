@@ -81,8 +81,8 @@ class Footer extends Component {
             className="footer-copyright text-center py-3"
             style={{ color: "white" }}
           >
-            <p>© 2019 Copyright</p>
-            <a href="https://www.matpan.com/UBPlatform/"> UB Platform</a>
+            <p>© 2020 Copyright</p>
+            <a href="http://bookdeal.online/"> Book Deal Platform</a>
           </div>
           <div class="icon">
             <SocialIcon url="http://twitter.com/" />

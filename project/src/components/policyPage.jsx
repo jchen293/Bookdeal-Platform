@@ -5,17 +5,17 @@ class PolicyPage extends Component {
     return (
       <div>
         <p>
-          <strong>UBPLATFORM PRIVACY POLICY</strong>
+          <strong>Book Deal Platform PRIVACY POLICY</strong>
           <br />
           <br />
           Last updated [03/26/2019] <br />
           <br />
           <strong>INTRODUCTION </strong> <br />
-          UBPlatform respects the privacy of our users. This Privacy Policy
+          Our platform respects the privacy of our users. This Privacy Policy
           explains how we collect, use, disclose, and safeguard your information
-          when you visit our website www.ubplatform.com including any other
+          when you visit our website www.bookdeal.online including any other
           media form, media channel, mobile website, or mobile application
-          related or connected there to www.ubplatform.com. Please read this
+          related or connected there to www.bookdeal.online. Please read this
           privacy policy carefully. If you do not agree with the terms of this
           privacy policy, please do not access the site. We reserve the right to
           make changes to this Privacy Policy at any time and for any reason. We
@@ -33,7 +33,7 @@ class PolicyPage extends Component {
           <br />
           <br />
           This privacy policy discloses the privacy practices for
-          www.ubplatform.com. This privacy policy applies solely to information
+          www.bookdeal.online. This privacy policy applies solely to information
           collected by this web site. It will notify you of the following:
           <br /> 1. What personally identifiable information is collected from
           you through the web site. how it is used and with whom it may be
