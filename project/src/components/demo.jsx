@@ -77,7 +77,7 @@ class PolicyPage extends Component {
             width="230"
           />
           <img
-            src=" https://www.sohamkamani.com/static/express-routing-logo-65137ed3c844d05124dcfdab28263c21-ec9c1.png 
+            src=" https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2019/07/express-logo-768x348.png 
 "
             height="230"
             style={{ marginLeft: "6%" }}
