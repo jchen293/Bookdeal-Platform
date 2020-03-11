@@ -15,7 +15,7 @@ See Scrum Board
 
 Currently Depoly on:
 
-https://www.matpan.com/UBPlatform
+http://bookdeal.online/
 
 Requirement:
 
