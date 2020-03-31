@@ -1,4 +1,4 @@
-# UBPlatform
+# Bookdeal.online
 Project Idea:
 
 Creating a online platform for the University at Buffalo students to exchange or sell a school supplies directly. 
