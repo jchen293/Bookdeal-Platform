@@ -9,13 +9,6 @@ Scrum Board Links:
 
 https://trello.com/b/7q6AaNh7/ubplatform
 
-Task Tracking:
-
-See Scrum Board
-
-Currently Depoly on:
-
-http://bookdeal.online/
 
 Requirement:
 
@@ -34,6 +27,3 @@ Then run 'node server.js' in backend folder to startup the server.
 Now, you got yourself a website that connect to our database.
 
 Enjoy.
-
-
-
